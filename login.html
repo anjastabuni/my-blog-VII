@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/355acdeb36.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@300;500&family=Candal&family=Montserrat+Subrayada&family=Montserrat:wght@200;500;700&family=Orbitron:wght@500&family=Poppins:wght@300;600&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@300;500&family=Candal&family=Lora&family=Montserrat+Subrayada&family=Montserrat:wght@200;500;700&family=Orbitron:wght@500&family=Poppins:wght@300;600&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css external -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="logo-text"><span>Rebly</span>Tabuni</h1>
+      </div>
+      <i class="fa-solid fa-bars menu-toggle"></i>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <!-- <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Login</a></li> -->
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+            Rebly Tabuni
+            <i class="fa-solid fa-chevron-down" style="font-size: 0.8em"></i>
+          </a>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i> Dasboard</a>
+            </li>
+            <li>
+              <a href="#" class="logout"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+
+    <div class="auth-content">
+      <form action="login.html" method="post">
+        <h2 class="form-title">Login</h2>
+
+        <div>
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" class="text-input" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="text" name="password" id="password" class="text-input" />
+        </div>
+        <div>
+          <button type="submit" name="register-btn" class="btn btn-big">Login</button>
+        </div>
+        <p>Or <a href="register.html">Sign Up</a></p>
+      </form>
+    </div>
+
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- custom script -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
